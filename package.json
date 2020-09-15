@@ -1,0 +1,26 @@
+{
+  "name": "@agc93/privatebin",
+  "version": "0.0.1",
+  "description": "A super-simple PrivateBin upload library",
+  "main": "./dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc -p ."
+  },
+  "author": "agc93",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/agc93/privatebin.git"
+  },
+  "devDependencies": {
+    "@types/bs58": "^4.0.1",
+    "@types/pako": "^1.0.1"
+  },
+  "dependencies": {
+    "bs58": "^4.0.1",
+    "axios": "^0.20.0",
+    "pako": "^1.0.11"
+  }
+}
