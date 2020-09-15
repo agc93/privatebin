@@ -1,6 +1,6 @@
 {
   "name": "@agc93/privatebin",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A super-simple PrivateBin upload library",
   "main": "./dist/index.js",
   "types": "dist/index.d.ts",
@@ -8,7 +8,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc -p ."
   },
-  "engines": {"node": ">=12.9.0"},
+  "engines": {
+    "node": ">=12.9.0"
+  },
   "author": "agc93",
   "license": "MIT",
   "repository": {
