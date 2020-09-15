@@ -8,6 +8,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc -p ."
   },
+  "engines": {"node": ">=12.9.0"},
   "author": "agc93",
   "license": "MIT",
   "repository": {
