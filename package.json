@@ -12,7 +12,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/agc93/privatebin.git"
+    "url": "git+https://github.com/agc93/privatebin.git"
   },
   "devDependencies": {
     "@types/bs58": "^4.0.1",
@@ -23,5 +23,9 @@
     "bs58": "^4.0.1",
     "axios": "^0.20.0",
     "pako": "^1.0.11"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/agc93/privatebin/issues"
+  },
+  "homepage": "https://github.com/agc93/privatebin#readme"
 }
